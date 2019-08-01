@@ -1,0 +1,22 @@
+.DS_Store
+*/.DS_Store
+src/.DS_Store
+
+src/assets/.DS_Store
+src/pages/.DS_Store
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+doc/
+mock2easy/
+.vscode
+
+# Editor directories and files
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+dist/

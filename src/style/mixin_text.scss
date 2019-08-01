@@ -1,0 +1,21 @@
+@mixin bold-text {
+  font: {
+    family: 'PingFangSC-Semibold';
+    weight: 800;
+  }
+}
+
+@mixin medium-text {
+  font: {
+    family: 'PingFangSC-Medium';
+    weight: 500;
+  }
+}
+
+@mixin regular-text {
+  font-family: 'PingFangSC-Regular';
+}
+
+@mixin light-text {
+  font-family: 'PingFangSC-Light';
+}

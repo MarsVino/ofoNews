@@ -1,0 +1,7 @@
+@import 'variable';
+
+// rem单位换算，定为75px只是方便运算
+// iphone6尺寸的根元素大小基准值
+@function rem($px) {
+    @return ($px / $vm_fontsize) * 1rem;
+}
